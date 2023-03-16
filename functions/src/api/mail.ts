@@ -31,8 +31,8 @@ export const sendLandingMail = async (
                 }
             }));
             const mailOptions = {
-                to: "danquah662@gmail.com",
-                from: "kemmanuel662@gmail.com",
+                to: "eatsalonecommercial@gmail.com",
+                from: email,
                 subject: `${name} sent you a new message`,
                 text: text,
                 html: text
